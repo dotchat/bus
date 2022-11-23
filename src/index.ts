@@ -29,7 +29,7 @@ export const uuid = () => {
   });
 };
 
-class Bus {
+export class Bus {
   // map of subjects with their callbacks
   public readonly subjects: IBusSubjectMap = {};
 
